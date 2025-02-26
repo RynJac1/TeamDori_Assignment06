@@ -1,4 +1,18 @@
+# File Name :Jacobry_Assignment05
+# Student Name: Ryan Jacob
+# email:  Jacobry@mail.uc.edu
+# Assignment Number: Assignment 05
+# Due Date:  2/20/2025
+# Course #/Section:  IS4010-002
+# Semester/Year:  Spring 2025
+# Brief Description of the assignment:  his assignment involves collaborating with peers to create a Python-based project that models a real-world concept. 
+# Each team member contributes at least one class (except the member who writes the main.py file). Classes must include __init__, __str__, and __repr__ methods, 
+# at least one property with getters and setters, and one functional method.
 
+# The main method serves as the entry point for the program. It creates objects from the defined classes, 
+# demonstrates their functionalities by calling both special (dunder) and regular methods, 
+# and prints relevant information to showcase all required class features in a clear and organized way.
+# Citations: https://chatgpt.com/
 
 
 
