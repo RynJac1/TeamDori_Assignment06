@@ -1,7 +1,7 @@
-# File Name :Jacobry_Assignment05
+# File Name : main.py
 # Student Name: Ryan Jacob
 # email:  Jacobry@mail.uc.edu
-# Assignment Number: Assignment 05
+# Assignment Number: Assignment 06
 # Due Date:  2/20/2025
 # Course #/Section:  IS4010-002
 # Semester/Year:  Spring 2025
@@ -17,13 +17,15 @@
 
 
 
-"""
-from car import Car
-from driver import Driver
+
+from car.geierml_car import *
+from driver.crookscl_driver import *
+
 
 def main():
     # 1. Instantiate at least one object of each type
     my_car = Car(make="Toyota", model="Camry", color="Blue")
+  
     my_driver = Driver(name="Alice", license_valid=True)
 
     # 2. Demonstrate __str__ and __repr__ usage
@@ -43,20 +45,20 @@ def main():
 
     # 4. Use the Driver to drive the Car
     my_driver.drive_car(my_car)
-
+ 
     # 5. Show property getters and setters in action
     print("\nCHECKING/SETTING PROPERTIES:")
     print(f"Current car color: {my_car.color}")
     my_car.color = "Black"
     print(f"New car color: {my_car.color}")
-
+  
     print(f"Driver license status: {my_driver.license_valid}")
     my_driver.license_valid = False
     print(f"Driver license status after change: {my_driver.license_valid}")
 
     # Try driving again with invalid license
     my_driver.drive_car(my_car)
+    
 
 if __name__ == "__main__":
     main()
-"""

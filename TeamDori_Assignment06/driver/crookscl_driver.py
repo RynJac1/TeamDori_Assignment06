@@ -8,9 +8,8 @@
 # Brief Description of the assignment: Each team member contributes at least one class (except the member who writes the main.py file). Classes must include __init__, __str__, and __repr__ methods, 
 # at least one property with getters and setters, and one functional method.
 
-# Brief Description of what this module does. The main method serves as the entry point for the program. It creates objects from the defined classes, 
-# demonstrates their functionalities by calling both special (dunder) and regular methods, 
-# and prints relevant information to showcase all required class features in a clear and organized way.
+# This module defines the Driver class, representing a person who can operate a car. 
+# It manages the driver’s name, license status, and provides methods for starting and driving a given car.
 # Citations: https://chatgpt.com/
 
 class Driver:

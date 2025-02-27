@@ -21,13 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="car\car.py">
+    <Compile Include="car\geierml_car.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="car\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="driver\driver.py">
+    <Compile Include="driver\crookscl_driver.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="driver\__init__.py">
